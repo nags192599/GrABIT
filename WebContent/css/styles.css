@@ -1,0 +1,156 @@
+html{
+	font-family:'ProximaNova-Reg','Franklin Gothic','Franklin Gothic','ITC Franklin Gothic',Arial,sans-serif;
+}
+body {
+/*background-image: url('images/background.jpg'); */
+background-repeat:no-repeat;
+width:100%;
+height:766px;
+margin:0;
+padding:0;
+}
+
+header{
+	 width: 100%;
+	 max-width: 970px;
+	 margin: 0 auto;
+	 border-bottom:1px solid #ccc;
+	 height:75px;
+}
+
+header .logo{
+	display: block;
+ 	padding: 5px 0;
+ 	width: 20.61855670103093%;
+ 	float: left;
+}
+header .title{
+ line-height: 75px;
+ padding: 0 20px;
+ float: left;
+ font-size: 20px;
+ color: #4cb3cf;
+}
+.copyright {
+    z-index: 9999;
+    float: left;
+    font-size: 1em;
+    color: #000;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    font-stretch: wider;
+    font-family: "Trebuchet MS" , Helvetica, sans-serif;
+}
+
+.login	
+{    margin: 0px 0px 0px 0px;
+    padding-right: 0px;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-image:url("images/keep-challenging-logo.png");
+    background-repeat:no-repeat;
+    
+}
+
+.login form	
+{  
+ 	padding: 25px;
+    width: 300px;
+    background-color: #f7f7f7;
+    margin: 0 auto 25px;
+    box-shadow:0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.login h3	
+{  
+ 	width:100%;
+	text-align:center;
+}
+
+.btn{
+	padding: 5px 15px;
+    width: 45%;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.accessDeniedBG, .wentWrongBG{
+     background-color: #fff;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #BDE6F7;
+    position: relative;
+
+ }
+ 
+ .authorization{
+ height:400px;
+ }
+ 
+ .accessDeniedBG{
+     background-image: url('../images/access_denied.png');
+     background-size:200px;
+  /*   background-position:50%; */
+  height:400px;
+ }
+ 
+ .wentWrongBG{
+    height: 450px;
+        border-top: 1px solid #3493C1;
+    border-bottom: 1px solid #3493C1;
+ }
+ 
+ .accessDeniedTxt, .wentWrongTxt {
+     color: #F70438;
+     font-size: 20px;
+     font-weight: bold;
+     text-align: center;
+ }
+ 
+ .accessDeniedTxt{
+    position: absolute;
+    top: 100px;
+    left: 35%;
+    width: 30%;
+ }
+ .wentWrongTxt{
+     width: 100%;
+    text-align: left;
+    position: absolute;
+    top: 25px;
+    color: #3493C1;
+    text-shadow: none;
+ }
+ 
+ .accessDeniedSupportTxt, .wentWrongSupportTxt{
+     font-size: 20px;
+     font-weight: bold;
+     color: #F70438;
+     width: 30%;
+     text-align: center;
+ }
+ 
+ .accessDeniedSupportTxt{
+        position: absolute;
+    top: 150px;
+    left: 35%;
+ }
+ 
+ .wentWrongSupportTxt{
+     text-align: left;
+    position: absolute;
+    top: 85px;
+    color: #10101C;
+    text-shadow: none;
+    width: 100%;
+    font-size: 18px;
+ }
+ 
+ section{
+ position:relative;
+ }
