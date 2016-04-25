@@ -5,6 +5,14 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>GrABIT Login</title>
+<style type="text/css">
+body {
+background-image: url('images/background.jpg');
+background-repeat:no-repeat;
+width:100%;
+height:766px;
+}
+</style>
 </head>
 <body>
 <form method="post" action="validate.jsp">
